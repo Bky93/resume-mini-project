@@ -37,6 +37,9 @@
     color: #fafafa;
  }
 
+ .inline-block {
+    display:inline-block;
+ }
 /* ----------------------------- Heading */
 
 header {
@@ -135,7 +138,50 @@ header {
 
 footer {
     background-color: #0b0b0b;
-    color: #ebe71b;
+    color: #fafafa;
     min-height: 120px;
     margin:0;
+}
+
+.cv-pdf i {
+    font-size:18px;
+    color:#fafafa;
+    text-align: center;
+    padding-left:5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color:#787c1c;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width:32px;
+    height:32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height:7px;
+    text-align: center;
+    color:#fafafa;
+    background: #b6b159;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ebe71b;
+}
+
+#footer-details {
+    padding:20px;
 }
